@@ -1,0 +1,15 @@
+2024-01-10 14:44:51,774 [INFO] MainUpdater:2868 - connection check result : 10
+2024-01-10 14:44:51,852 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-01-10 14:44:51,853 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-01-10 14:44:51,853 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2024-01-10 14:44:52,400 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-01-10 14:44:52,400 [INFO] DetailPanel:341 - Set advertising image to /home/wyatt/STM32Cube/Repository//en.prom-stm32wl3-mcu-finder.jpg
+2024-01-10 14:44:54,858 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-01-10 14:44:54,900 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-01-10 14:44:54,900 [INFO] DetailPanel:341 - Set advertising image to /home/wyatt/STM32Cube/Repository//en.prom-stm32wl3-mcu-finder.jpg
+2024-01-10 14:44:56,844 [INFO] ApiDb:581 - Connected to CubeFinder SQLite database (/home/wyatt/.stmcufinder/plugins/mcufinder/mcu/cube-finder-db.db)
+2024-01-10 14:45:29,159 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-01-10 14:45:29,160 [INFO] ApiDb:448 - Save user favorites file /home/wyatt/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-01-10 14:45:29,160 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-01-10 14:45:29,160 [INFO] ApiDb:448 - Save user favorites file /home/wyatt/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2024-01-10 14:45:29,161 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F446RE]

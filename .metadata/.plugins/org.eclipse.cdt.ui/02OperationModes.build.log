@@ -1,0 +1,10 @@
+15:07:05 **** Incremental Build of configuration Debug for project 02OperationModes ****
+make -j12 all 
+arm-none-eabi-size   02OperationModes.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3524	    100	   1900	   5524	   1594	02OperationModes.elf
+Finished building: default.size.stdout
+ 
+
+15:07:05 Build Finished. 0 errors, 0 warnings. (took 576ms)
+
