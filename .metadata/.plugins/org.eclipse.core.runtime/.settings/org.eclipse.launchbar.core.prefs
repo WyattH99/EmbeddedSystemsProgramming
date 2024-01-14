@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01HelloWorld,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02OperationModes Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03InlineAssembly Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04AccessLevels Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01HelloWorld,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02OperationModes Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03InlineAssembly Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04AccessLevels Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:06BitBanding Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07Stack Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:08USART3intPend
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01HelloWorld/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01HelloWorld/activeLaunchTarget=null\:---

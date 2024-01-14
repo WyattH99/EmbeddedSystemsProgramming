@@ -1,0 +1,5 @@
+../Src/main.c:27:6:generate_interrupt	1
+../Src/main.c:39:6:change_access_level_unpriv	1
+../Src/main.c:48:5:main	1
+../Src/main.c:68:6:RTC_WKUP_IRQHandler	1
+../Src/main.c:72:6:HardFault_Handler	1

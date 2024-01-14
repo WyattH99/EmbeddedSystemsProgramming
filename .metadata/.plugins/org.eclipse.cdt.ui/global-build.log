@@ -1,35 +1,14 @@
-12:57:21 **** Incremental Build of configuration Debug for project 04AccessLevels ****
+10:05:16 **** Incremental Build of configuration Debug for project 08USART3intPend ****
 make -j12 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "04AccessLevels.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/wyatt/Desktop/EmbeddedSystemsProgramming/04AccessLevels/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="04AccessLevels.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 04AccessLevels.elf
- 
-arm-none-eabi-size   04AccessLevels.elf 
-arm-none-eabi-objdump -h -S  04AccessLevels.elf  > "04AccessLevels.list"
+arm-none-eabi-size   08USART3intPend.elf 
    text	   data	    bss	    dec	    hex	filename
-   3588	    100	   1900	   5588	   15d4	04AccessLevels.elf
+   3408	    100	   1900	   5408	   1520	08USART3intPend.elf
 Finished building: default.size.stdout
  
-Finished building: 04AccessLevels.list
- 
-12:57:43 **** Incremental Build of configuration Debug for project 04AccessLevels ****
+10:05:28 **** Incremental Build of configuration Debug for project 08USART3intPend ****
 make -j12 all 
-arm-none-eabi-size   04AccessLevels.elf 
+arm-none-eabi-size   08USART3intPend.elf 
    text	   data	    bss	    dec	    hex	filename
-   3588	    100	   1900	   5588	   15d4	04AccessLevels.elf
+   3408	    100	   1900	   5408	   1520	08USART3intPend.elf
 Finished building: default.size.stdout
- 
-13:00:18 **** Incremental Build of configuration Debug for project 04AccessLevels ****
-make -j12 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "04AccessLevels.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/wyatt/Desktop/EmbeddedSystemsProgramming/04AccessLevels/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="04AccessLevels.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 04AccessLevels.elf
- 
-arm-none-eabi-size   04AccessLevels.elf 
-arm-none-eabi-objdump -h -S  04AccessLevels.elf  > "04AccessLevels.list"
-   text	   data	    bss	    dec	    hex	filename
-   3588	    100	   1900	   5588	   15d4	04AccessLevels.elf
-Finished building: default.size.stdout
- 
-Finished building: 04AccessLevels.list
  
