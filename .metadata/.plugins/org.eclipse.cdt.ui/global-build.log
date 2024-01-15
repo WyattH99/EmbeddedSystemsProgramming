@@ -1,14 +1,35 @@
-12:39:51 **** Incremental Build of configuration Debug for project 11FaultGen ****
+17:18:15 **** Incremental Build of configuration Debug for project 13SVCOperation ****
 make -j12 all 
-arm-none-eabi-gcc "../Src/main-1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main-1.d" -MT"Src/main-1.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main-1.o"
-arm-none-eabi-gcc -o "11FaultGen.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/wyatt/Desktop/EmbeddedSystemsProgramming/11FaultGen/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="11FaultGen.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 11FaultGen.elf
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "13SVCOperation.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/wyatt/Desktop/EmbeddedSystemsProgramming/13SVCOperation/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="13SVCOperation.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 13SVCOperation.elf
  
-arm-none-eabi-size   11FaultGen.elf 
-arm-none-eabi-objdump -h -S  11FaultGen.elf  > "11FaultGen.list"
+arm-none-eabi-size   13SVCOperation.elf 
+arm-none-eabi-objdump -h -S  13SVCOperation.elf  > "13SVCOperation.list"
    text	   data	    bss	    dec	    hex	filename
-   5756	    100	   1900	   7756	   1e4c	11FaultGen.elf
+   5628	    100	   1900	   7628	   1dcc	13SVCOperation.elf
 Finished building: default.size.stdout
  
-Finished building: 11FaultGen.list
+Finished building: 13SVCOperation.list
+ 
+17:18:25 **** Incremental Build of configuration Debug for project 13SVCOperation ****
+make -j12 all 
+arm-none-eabi-size   13SVCOperation.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5628	    100	   1900	   7628	   1dcc	13SVCOperation.elf
+Finished building: default.size.stdout
+ 
+17:20:29 **** Incremental Build of configuration Debug for project 13SVCOperation ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "13SVCOperation.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/wyatt/Desktop/EmbeddedSystemsProgramming/13SVCOperation/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="13SVCOperation.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 13SVCOperation.elf
+ 
+arm-none-eabi-size   13SVCOperation.elf 
+arm-none-eabi-objdump -h -S  13SVCOperation.elf  > "13SVCOperation.list"
+   text	   data	    bss	    dec	    hex	filename
+   5628	    100	   1900	   7628	   1dcc	13SVCOperation.elf
+Finished building: default.size.stdout
+ 
+Finished building: 13SVCOperation.list
  
