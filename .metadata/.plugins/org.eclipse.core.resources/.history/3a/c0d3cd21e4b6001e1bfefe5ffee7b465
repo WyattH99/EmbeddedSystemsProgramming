@@ -213,13 +213,13 @@ void init_tasks_stack(void){
 	uint32_t *pPSP; // Pointer used to access the Stack
 
 	for(int i=0; i<MAX_TASKS; i++){
-		pPSP = (uint32_t*) user_tasks[i].psp_value;
+		pPSP = (uint32_t*) psp_of_tasks[i];
 
 		// Stack is Full Descending
 		pPSP--; // Store XPSR
 		*pPSP = DUMMY_XPSR; // Should be 0x01000000
 		pPSP--; // Store PC
-		*pPSP = (uint32_t) user_tasks[i].task_handler;
+		*pPSP = task_handlers[i];
 		pPSP--; // Store LR
 		*pPSP = 0xFFFFFFFD;
 		// Store 0 in each of the Registers
@@ -228,7 +228,7 @@ void init_tasks_stack(void){
 			*pPSP = 0;
 		}
 
-		user_tasks[i].psp_value = (uint32_t)pPSP;
+		psp_of_tasks[i] = (uint32_t)pPSP;
 
 	}
 
@@ -246,7 +246,7 @@ void enable_processor_faults(void){
 
 
 uint32_t get_psp_value(void){
-	return user_tasks[current_task].psp_value;
+	return psp_of_tasks[current_task];
 }
 
 
@@ -270,7 +270,7 @@ __attribute__ ((naked)) void switch_sp_to_psp(void){
 
 
 void save_psp_value(uint32_t current_psp_value){
-	user_tasks[current_task].psp_value = current_psp_value;
+	psp_of_tasks[current_task] = current_psp_value;
 }
 
 void update_next_task(void){

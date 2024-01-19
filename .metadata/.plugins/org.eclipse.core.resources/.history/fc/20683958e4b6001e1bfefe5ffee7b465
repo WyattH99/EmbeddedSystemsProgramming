@@ -32,10 +32,6 @@
 #define HSI_CLOCK				16000000U
 #define SYSTICK_TIMER_CLOCK		HSI_CLOCK
 
-#define TASK_RUNNING_STATE 0x00
-#define TASK_BLOCKED_STATE 0xFF
-
-
 
 
 #endif /* MAIN_H_ */

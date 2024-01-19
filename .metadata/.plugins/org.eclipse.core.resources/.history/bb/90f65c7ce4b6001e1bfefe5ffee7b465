@@ -219,7 +219,7 @@ void init_tasks_stack(void){
 		pPSP--; // Store XPSR
 		*pPSP = DUMMY_XPSR; // Should be 0x01000000
 		pPSP--; // Store PC
-		*pPSP = (uint32_t) user_tasks[i].task_handler;
+		*pPSP = (uint32_t*) user_tasks[i].task_handler;
 		pPSP--; // Store LR
 		*pPSP = 0xFFFFFFFD;
 		// Store 0 in each of the Registers
