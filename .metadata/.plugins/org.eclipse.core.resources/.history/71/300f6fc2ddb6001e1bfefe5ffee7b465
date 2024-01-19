@@ -9,10 +9,10 @@
 #define LED_H_
 
 // Ports
-#define LED_GREEN1	10
-#define LED_RED1	6
-#define LED_GREEN2	9
-#define LED_RED2	8
+#define LED_GREEN1	3
+#define LED_RED1	5
+#define LED_GREEN2	4
+#define LED_RED2	10
 
 // Delays - 1250 is
 #define DELAY_COUNT_1MS			1250U

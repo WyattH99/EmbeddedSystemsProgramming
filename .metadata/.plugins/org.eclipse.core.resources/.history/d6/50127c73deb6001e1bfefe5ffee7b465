@@ -95,6 +95,13 @@ int main(void)
 	// Tasks Should use PSP
 	switch_sp_to_psp();
 
+	printf("test\n");
+//	led_on(LED_GREEN1);
+//	led_on(LED_RED1);
+//	led_on(LED_GREEN2);
+//	led_on(LED_RED2);
+//	delay(DELAY_COUNT_1S);
+
 	task1_handler();
 
 	// Should never get here
@@ -107,7 +114,7 @@ int main(void)
 void task1_handler(void){
 
 	while(1){
-//		printf("Task1\n");
+		printf("Task1\n");
 		led_on(LED_GREEN1);
 		delay(DELAY_COUNT_1S);
 		led_off(LED_GREEN1);
@@ -119,7 +126,7 @@ void task1_handler(void){
 void task2_handler(void){
 
 	while(1){
-//		printf("Task2\n");
+		printf("Task2\n");
 		led_on(LED_RED1);
 		delay(DELAY_COUNT_500MS);
 		led_off(LED_RED1);
@@ -131,7 +138,7 @@ void task2_handler(void){
 void task3_handler(void){
 
 	while(1){
-//		printf("Task3\n");
+		printf("Task3\n");
 		led_on(LED_GREEN2);
 		delay(DELAY_COUNT_250MS);
 		led_off(LED_GREEN2);
@@ -143,7 +150,7 @@ void task3_handler(void){
 void task4_handler(void){
 
 	while(1){
-//		printf("Task4\n");
+		printf("Task4\n");
 		led_on(LED_RED2);
 		delay(DELAY_COUNT_125MS);
 		led_off(LED_RED2);
